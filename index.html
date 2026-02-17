@@ -1,0 +1,252 @@
+<html>
+    <head>
+        <title>MENU CARD</title>
+        
+    </head>
+    <style>
+        #menu{
+            display: flex;
+            flex-wrap: wrap;
+            width:50%;
+           border: 10px solid #3a3a37 ;
+           justify-content: space-evenly;
+           /* background-color:#8e95a5;  */
+           border-radius: 15px;
+           border-bottom:0px;
+            background-image: url(https://img.freepik.com/premium-vector/cover-restaurant-menu_600765-4249.jpg); */
+        }
+       
+        .jay{
+            display: flex;
+            margin-top: 10px;
+            flex-wrap: wrap;
+            flex-direction: column;
+            width:23%;
+            height:250px;
+            border:2px solid rgb(60, 60, 5);
+            box-sizing: border-box;
+            align-items: center;
+            justify-content:space-evenly;
+            border-radius: 20px;
+            background-color:  #f3f6fc;
+            box-shadow: 0 18px 20px rgba(17, 17, 18, 0.15);
+
+
+          }
+         .ff{
+        font-family: 'Courier New', Courier, monospace;
+       
+        
+        margin-top: 0%;
+        margin-bottom: 0%;
+       }
+         .jay button:hover {
+   background-color: #f20202;
+  transform: scale(1.05);
+}
+      .jay:hover {
+  /* background-color: #c4aca4; */
+  transform: scale(1,1.05);
+}
+        .jay img{
+            width:100%;
+            height:110px;
+            object-fit:contain;
+        }
+       
+         #header p{
+            
+            color: #E5E7EB ;
+            font-size:17px;
+            font-weight: bold;
+            margin-top: 0%;
+             margin-left: 30px;
+            flex-direction: column;
+            
+            
+        }
+        #hh::first-letter{
+            font-size: 60px;
+        }
+         #header h1{
+            
+            color:#e76c14;
+            font-size:35px;
+            font-weight: bold;
+            margin-bottom: 0%;
+            margin-left: 15px;;
+            flex-direction: column;
+            
+            
+        }
+        #header{
+            width:100%;
+          
+            
+           margin-bottom: 10px;
+            background-image: url('https://img.freepik.com/free-photo/delicious-chicken-rolls-stuffed-with-cheese-spinach-wrapped-strips-bacon-top-view_2829-17420.jpg?semt=ais_hybrid&w=740&q=80');
+        }
+        .price{
+        color:red;
+        font-weight: bold;
+       
+        
+       }
+       .op{
+        color:gray;
+        font-size: 14px;
+       }
+       .btn{
+        border:none;
+        border-radius:15px;
+        background-color: rgb(158, 60, 24);
+        color:rgb(180, 157, 157);
+        
+        padding:2px 5px;
+       
+        
+       }
+       .jay btn{
+        margin-top:auto;
+       }
+        #footer #h{
+            
+            color:#e9e0d9;
+            font-size:30px;
+            font-weight: bold;
+            margin-bottom: 0;
+            margin-right: 15px;;
+            flex-direction: column;
+            text-align: right;
+            margin-top:0px;
+            
+        }
+        #footer p{
+            
+           color: #d7dff0 ;
+            font-size:17px;
+            font-weight: bold;
+            margin-top: 0px;
+             margin-right: 30px;
+            flex-direction: column;
+            text-align: right;
+            
+        }
+       #footer{
+        width:100%;
+        height:70px;
+        margin-top: 5px;
+        vertical-align: middle;
+        
+        object-fit: contain;
+        background-image:url(https://t3.ftcdn.net/jpg/08/31/96/90/360_F_831969050_M9BKzVEPg5JO7Ep5kzTGO65vjDuzGlZ7.jpg);
+       }
+      
+       @media screen and (max-width:1000px) {
+         .jay{
+            width: 30%;
+         }
+       }
+    </style>
+    <body>
+      
+           
+        <div id="menu" >
+            <div id="header">
+                <h1 id="hh">Most ordered Food Menu</h1>
+                <p id="pera">Top picks from our customers...</p>
+            </div>
+           <div class="jay">
+             <img src="https://png.pngtree.com/png-clipart/20240610/original/pngtree-fast-food-big-burger-png-image_15295528.png">
+             <h4 class="ff">Burger</h4>  
+             <p class="price">$99.99 &nbsp<del class="op">$100.00</del>
+             </p>
+             <button class="btn">ORDER NOW</button>
+           </div>
+            <div class="jay">
+               <img src="https://media.istockphoto.com/id/1168754685/photo/pizza-margarita-with-cheese-top-view-isolated-on-white-background.jpg?s=612x612&w=0&k=20&c=psLRwd-hX9R-S_iYU-sihB4Jx2aUlUr26fkVrxGDfNg=">
+             <h4 class="ff">Pizza</h4>  
+             <p class="price">$99.99 &nbsp<del class="op">$100.00</del>
+             </p>
+             <button class="btn">ORDER NOW</button>
+           </div>
+            <div class="jay">
+               <img src="https://images.ctfassets.net/wtodlh47qxpt/2A4wJjZ8ZvCyj7RSxI3iTk/f403b8ceb2f120bf7ef36d5a913ddf6f/KFC-White-Chicken-Bucket.jpg">
+             <h4 class="ff">KFC chicken</h4>  
+             <p class="price">$99.99 &nbsp<del class="op">$100.00</del>
+             
+             </p>
+             <button class="btn">ORDER NOW</button>
+           </div>
+            <div class="jay">
+               <img src="https://static.toiimg.com/thumb/83740315.cms?imgsize=361903&width=800&height=800">
+             <h4 class="ff"> sandwich</h4>  
+             <p class="price">$99.99 &nbsp<del class="op">$100.00</del>
+             </p>
+             <button class="btn">ORDER NOW</button>
+           </div>
+           <div class="jay">
+               <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1coR_iVNQDOJ3HV6MN_0TXhztEK-h0nxOjQ&s">
+             <h4 class="ff">Gobi manchuria</h4>  
+             <p class="price">$99.99 &nbsp<del class="op">$100.00</del>
+             </p>
+             <button class="btn">ORDER NOW</button>
+           </div>
+           <div class="jay">
+               <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCFPuKGRzp33pIErtg8nyR_hGURc04geeMAg&s">
+             <h4 class="ff">Rolls</h4>  
+             <p class="price">$99.99 &nbsp<del class="op">$100.00</del>
+             </p>
+             <button class="btn">ORDER NOW</button>
+           </div>
+           <div class="jay">
+               <img src="https://www.mcdonalds.com.sg/sites/default/files/2025-02/French%20Fries%20-%20L.jpg">
+             <h4 class="ff">French frice</h4>  
+             <p class="price">$99.99 &nbsp<del class="op">$100.00</del>
+             </p>
+             <button class="btn">ORDER NOW</button>
+           </div>
+           <div class="jay">
+               <img src="https://thumbs.dreamstime.com/b/indo-chinese-veg-starter-paneer-manchurian-indian-vegetarian-manchurian-indo-chinese-manchurian-snack-prepared-cabbage-green-163905542.jpg">
+             <h4 class="ff">salads</h4>  
+             <p class="price">$99.99 &nbsp<del class="op">$100.00</del>
+             </p>
+             <button class="btn">ORDER NOW</button>
+           </div>
+           <div class="jay">
+               <img src="https://www.indianveggiedelight.com/wp-content/uploads/2022/12/white-sauce-pasta-featured.jpg">
+             <h4 class="ff">pasta</h4>  
+             <p class="price">$99.99 &nbsp<del class="op">$100.00</del>
+             </p>
+             <button class="btn">ORDER NOW</button>
+           </div>
+           <div class="jay">
+               <img src="https://png.pngtree.com/png-clipart/20240510/original/pngtree-instant-fried-noodles-png-image_15059696.png">
+             <h4 class="ff">noodles</h4>  
+             <p class="price">$99.99 &nbsp<del class="op">$100.00</del>
+             </p>
+             <button class="btn">ORDER NOW</button>
+           </div>
+          <div class="jay">
+               <img src="https://www.foodandwine.com/thmb/uvgL-Exvv_8Jf5bodVNiYyu-N3k=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/tomato-chicken-pasta-soup-FT-RECIPE0924-1cffbad895f64326b44d27e18c4b6b0c.jpeg">
+             <h4 class="ff">soup</h4>  
+             <p class="price">$99.99 &nbsp<del class="op">$100.00</del>
+             </p>
+             <button class="btn">ORDER NOW</button>
+           </div>
+            <div class="jay">
+               <img src="https://ik.imagekit.io/iwcam3r8ka/prod/blog-header/202506/fce13968-12a5-4447-ab7d-2c75229cf886.jpg">
+             <h4 class="ff">chicken lollipop</h4>  
+             <p class="price">$99.99 &nbsp<del class="op">$100.00</del>
+             </p>
+             <button class="btn">ORDER NOW</button>
+           </div>
+           <div id="footer">
+            <h1 id="h">Tirupati,bhavani nagar</h1>
+            <p id="pp">contact:855985036</p>
+           </div>
+            
+        </div>
+        
+    </body>
+</html>
